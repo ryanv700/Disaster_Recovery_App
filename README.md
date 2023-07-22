@@ -19,3 +19,6 @@ can alert relevant parties when a message shows someone is in urgent need of hel
 3. Run your web app: `python run.py`
 
 4. Click the `PREVIEW` button to open the homepage
+
+References:
+For this project I used: Udacity course material, reference code from the lessons, and Udacity GPT helper
