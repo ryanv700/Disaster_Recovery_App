@@ -20,5 +20,11 @@ can alert relevant parties when a message shows someone is in urgent need of hel
 
 4. Click the `PREVIEW` button to open the homepage
 
+## Files Explanation
+- `process_data.py`: Reads text data from csv, performs some data cleaning and processing, and saves to a SQL database. 
+- `train_classifier.py`: Reads text model training data from SQL, performs preprocessing required for NLP model training, trains a Random Forest model incorporating
+  cross validation for hyperparameter tuning, and saves the model to a pickle file
+- `run.py`: Loads the saved Random Forest classifier model. Deploys the trained model to a very basic Flask App which can process text input and serve predictions. 
+
 References:
 For this project I used: Udacity course material, reference code from the lessons, and Udacity GPT helper
